@@ -27,7 +27,7 @@
 - 최대-최소 사이의 값 사이에서 랜덤하게 데이터가 생성되며, 각각의 데이터는 `100+a` 장으로 데이터 모델이 발전할 수록 충분히 늘릴 수 있습니다.
 - 머신러닝 아키텍처는 `MobileNetV2` 모델을 선정하였고, `Training` 결과에 따라 오버피팅을 줄이기 위해 `Layer` 를 일부 추가했습니다.
 
-<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/tree/main/Resources/ml_architecture.png" style="zoom:50%;" /></p>
+<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/blob/main/Resources/ml_architecture.png" style="zoom:50%;" /></p>
 
 > 사용자의 카메라 촬영 데이터에 대한 전처리 모델입니다.
 
@@ -39,7 +39,7 @@
 
 ### (2) OCR Model
 
-<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/tree/main/Resources/ml_architecture_ocr.png" style="zoom:50%;" /></p>
+<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/blob/main/Resources/ml_architecture_ocr.png" style="zoom:50%;" /></p>
 
 > 적용된 OCR 모델의 전체 프로세스에 대한 아키텍처입니다.
 
