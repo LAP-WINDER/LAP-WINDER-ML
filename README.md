@@ -17,7 +17,7 @@
 
 ### (1) Image Classification Model
 
-<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/tree/main/Resources/ml_preprocess.png" style="zoom:50%;" /></p>
+<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/blob/main/Resources/ml_preprocess.png" style="zoom:50%;" /></p>
 
 > 와인 이미지 데이터 베이스의 머신러닝 아키텍처 입니다.
 
@@ -28,6 +28,8 @@
 - 머신러닝 아키텍처는 `MobileNetV2` 모델을 선정하였고, `Training` 결과에 따라 오버피팅을 줄이기 위해 `Layer` 를 일부 추가했습니다.
 
 <p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/tree/main/Resources/ml_architecture.png" style="zoom:50%;" /></p>
+
+> 사용자의 카메라 촬영 데이터에 대한 전처리 모델입니다.
 
 - 사용자의 카메라 캡쳐 인풋 데이터는 개발자의 입장에서 가장 핸들링하기 어려운 부분이라고 생각했습니다. 이를 베타버전에서는 가이드라인 제시 및 컴퓨터 비전 처리를 통해 데이터 전처리를 하는 것으로 선정하였습니다.
 - iOS 어플리케이션에서 사용자가 촬영할 때, 카메라 오버레이를 통해 선 사이 중앙에 세로로 두도록 유도합니다. 해당 아키텍처의 첫 번째 사진은 가이드라인에 따른 촬영 결과물입니다.
