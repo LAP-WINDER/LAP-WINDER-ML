@@ -45,6 +45,9 @@
 
 - 사용자가 가이드 라인에 맞추어서 가운데에 와인을 촬영하면 중간 지점을 자릅니다.
 - 추출한 화인 이미지를 그레이스케일 혹은 비트와이즈 연산을 거쳐서 Keras OCR 혹은 Tesseract OCR 모델을 통해 인식된 텍스트를 추출합니다.
+
+<p align='center'><img src="https://github.com/LAP-WINDER/LAP-WINDER-ML/blob/main/Resources/result_of_keras-ocr.png" style="zoom:50%;" /></p>
+
 - 해당 텍스트는 엘라스틱서치 검색엔진을 통하여 데이터 베이스와 매칭합니다.
 - 해당 결과에 따라 와인 데이터 베이스를 Rest API 로 서비스에 전달합니다.
 
